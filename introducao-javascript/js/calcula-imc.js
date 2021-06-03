@@ -20,7 +20,7 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
     var alturaValido = validaAltura(altura);
-    if (!alturaValido) {
+    if (!alturaValido) { 
         tdAltura.textContent = "Altura inválido"
         alturaValido = false
         paciente.classList.add("paciente-invalido")

@@ -25,7 +25,6 @@ botaoAdd.addEventListener("click", function (event) {
     ul.innerHTML = "";
 
 
-
 });
 
 function exibeMsgErro(erros){
@@ -49,6 +48,7 @@ function obtemPacienteDoFormulario(form) {
         imc: calculaImc(form.peso.value, form.altura.value)
     }
     return paciente;
+    
 }
 
 function montaTr(paciente) {

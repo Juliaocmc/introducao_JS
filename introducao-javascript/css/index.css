@@ -144,3 +144,8 @@ button[disabled=disabled], button:disabled {
 #msg-erro{
 	color: red;
 }
+
+.sumir{
+	opacity: 0;
+	transition: 5s;
+}
